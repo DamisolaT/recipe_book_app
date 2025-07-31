@@ -34,7 +34,7 @@ class _ResponsiveNavigationState extends State<ResponsiveNavigation> {
       label: 'Favorites',
       icon: Icons.favorite_outline,
       selectedIcon: Icons.favorite,
-      page: FavoritesScreen(),
+      page: FavoriteScreen(),
     ),
     AppDestination(
       label: 'Profile',

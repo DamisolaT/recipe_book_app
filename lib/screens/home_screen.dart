@@ -126,7 +126,7 @@ class HomeScreen extends StatelessWidget {
           cookTime: '4.9',
           rating: '30 min',
           thumbnailUrl:
-              'https://lh3.googleusercontent.com/ei5eF1LRFkkcekhjdR_8XgOqgdjpomf-rda_vvh7jIauCgLlEWORINSKMRR6I6iTcxxZL9riJwFqKMvK0ixS0xwnRHGMY4I5Zw=s360',
+              'https://media.istockphoto.com/id/971559940/photo/food.jpg?s=612x612&w=0&k=20&c=THBq556N843yRnCcrMR8O0FCZlDgUoqZsSPdTZUS6mo=',
         ),
          RecipeCard(
           title: 'My Recipe',
@@ -140,21 +140,21 @@ class HomeScreen extends StatelessWidget {
           cookTime: '4.9',
           rating: '30 min',
           thumbnailUrl:
-              'https://lh3.googleusercontent.com/ei5eF1LRFkkcekhjdR_8XgOqgdjpomf-rda_vvh7jIauCgLlEWORINSKMRR6I6iTcxxZL9riJwFqKMvK0ixS0xwnRHGMY4I5Zw=s360',
+              'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVyZ2VyfGVufDB8fDB8fHww',
         ),
          RecipeCard(
           title: 'My Recipe',
           cookTime: '4.9',
           rating: '30 min',
           thumbnailUrl:
-              'https://lh3.googleusercontent.com/ei5eF1LRFkkcekhjdR_8XgOqgdjpomf-rda_vvh7jIauCgLlEWORINSKMRR6I6iTcxxZL9riJwFqKMvK0ixS0xwnRHGMY4I5Zw=s360',
+              'https://media.istockphoto.com/id/498310978/photo/egusi-soup-and-pounded-yam-nigerian-cuisine.webp?a=1&b=1&s=612x612&w=0&k=20&c=8RYkql2CrZ6ybqCK6aomthImUbcvmLJhq8lxtKI2uL0=',
         ),
          RecipeCard(
           title: 'My Recipe',
           cookTime: '4.9',
           rating: '30 min',
           thumbnailUrl:
-              'https://lh3.googleusercontent.com/ei5eF1LRFkkcekhjdR_8XgOqgdjpomf-rda_vvh7jIauCgLlEWORINSKMRR6I6iTcxxZL9riJwFqKMvK0ixS0xwnRHGMY4I5Zw=s360',
+              'https://images.unsplash.com/photo-1441986060468-324610e6e6a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFtYWxhJTIwJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D',
         ),
       ],
     );
