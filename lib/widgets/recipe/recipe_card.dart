@@ -5,6 +5,7 @@ class RecipeCard extends StatelessWidget {
   final String rating;
   final String cookTime;
   final String thumbnailUrl;
+  final bool isHorizontal;
 
   const RecipeCard({
     super.key,
@@ -12,14 +13,21 @@ class RecipeCard extends StatelessWidget {
     required this.cookTime,
     required this.rating,
     required this.thumbnailUrl,
+    this.isHorizontal = false, // Default to vertical card
   });
 
   @override
   Widget build(BuildContext context) {
+    double cardWidth = isHorizontal ? 250 : MediaQuery.of(context).size.width;
+    double cardHeight = 180;
+
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 22, vertical: 10),
-      width: MediaQuery.of(context).size.width,
-      height: 180,
+      margin: EdgeInsets.symmetric(
+        horizontal: isHorizontal ? 10 : 22,
+        vertical: 10,
+      ),
+      width: cardWidth,
+      height: cardHeight,
       decoration: BoxDecoration(
         color: Colors.black,
         borderRadius: BorderRadius.circular(15),
